@@ -224,9 +224,9 @@ def mutual_info_metric_faces(vae, shapes_dataset):
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument('-checkpt', required=True)
-    parser.add_argument('-gpu', type=int, default=0)
-    parser.add_argument('-save', type=str, default='.')
+    parser.add_argument('--checkpt', required=True)
+    parser.add_argument('--gpu', type=int, default=0)
+    parser.add_argument('--save', type=str, default='.')
     args = parser.parse_args()
 
     if args.gpu != 0:

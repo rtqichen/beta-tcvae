@@ -7,7 +7,7 @@ This repository contains code for the quantitative experiments in Isolating Sour
 To train a model:
 
 ```
-python vae_quant.py --dataset [shapes/faces] -beta 6 --tcvae
+python vae_quant.py --dataset [shapes/faces] --beta 6 --tcvae
 ```
 Specify `--conv` to use the convolutional VAE. We used a mlp for dSprites and conv for 3d faces. To see all options, use the `-h` flag.
 
