@@ -11,6 +11,8 @@ python vae_quant.py --dataset [shapes/faces] --beta 6 --tcvae
 ```
 Specify `--conv` to use the convolutional VAE. We used a mlp for dSprites and conv for 3d faces. To see all options, use the `-h` flag.
 
+The main computational difference between beta-VAE and beta-TCVAE is summarized in [these lines](vae_quant.py#L220-L228).
+
 To evaluate the MIG of a model:
 ```
 python disentanglement_metrics.py --checkpt [checkpt]
