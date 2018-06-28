@@ -223,7 +223,7 @@ class VAE(nn.Module):
         )
 
         if not self.mss:
-            # minibatch importance sampling
+            # minibatch weighted sampling
             logqz_prodmarginals = (logsumexp(_logqz, dim=1, keepdim=False) - math.log(batch_size * dataset_size)).sum(1)
             logqz = (logsumexp(_logqz.sum(2), dim=1, keepdim=False) - math.log(batch_size * dataset_size))
         else:
