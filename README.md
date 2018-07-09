@@ -1,6 +1,6 @@
 # beta-TCVAE
 
-This repository contains code for the quantitative experiments in Isolating Sources of Disentanglement in Variational Autoencoders \[[arxiv](https://arxiv.org/abs/1802.04942)\].
+This repository contains cleaned-up code for reproducing the quantitative experiments in Isolating Sources of Disentanglement in Variational Autoencoders \[[arxiv](https://arxiv.org/abs/1802.04942)\].
 
 ## Usage
 
