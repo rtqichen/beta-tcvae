@@ -30,8 +30,7 @@ We cannot publicly distribute this due to the [license](https://faces.dmi.unibas
 ## Contact
 Email rtqichen@cs.toronto.edu if you have questions about the code/data.
 
-## Cite
-Please consider citing our paper.
+## Bibtex
 ```
 @inproceedings{chen2018isolating,
   title={Isolating Sources of Disentanglement in Variational Autoencoders},
