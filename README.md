@@ -29,3 +29,14 @@ We cannot publicly distribute this due to the [license](https://faces.dmi.unibas
 
 ## Contact
 Email rtqichen@cs.toronto.edu if you have questions about the code/data.
+
+## Cite
+Please consider citing our paper.
+```
+@inproceedings{chen2018isolating,
+  title={Isolating Sources of Disentanglement in Variational Autoencoders},
+  author={Chen, Tian Qi and Li, Xuechen and Grosse, Roger and Duvenaud, David},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year={2018}
+}
+```
