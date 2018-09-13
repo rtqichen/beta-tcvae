@@ -34,7 +34,7 @@ Email rtqichen@cs.toronto.edu if you have questions about the code/data.
 ```
 @inproceedings{chen2018isolating,
   title={Isolating Sources of Disentanglement in Variational Autoencoders},
-  author={Chen, Tian Qi and Li, Xuechen and Grosse, Roger and Duvenaud, David},
+  author={Chen, Ricky T. Q. and Li, Xuechen and Grosse, Roger and Duvenaud, David},
   booktitle = {Advances in Neural Information Processing Systems},
   year={2018}
 }
