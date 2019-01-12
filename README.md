@@ -25,7 +25,7 @@ To see all options, use the `-h` flag.
 Download the npz file from [here](https://github.com/deepmind/dsprites-dataset) and place it into `data/`.
 
 ### 3D faces
-We cannot publicly distribute this due to the [license](https://faces.dmi.unibas.ch/bfm/main.php?nav=1-2&id=downloads). 
+We cannot publicly distribute this due to the [license](https://faces.dmi.unibas.ch/bfm/main.php?nav=1-2&id=downloads). Please contact me for the data.
 
 ## Contact
 Email rtqichen@cs.toronto.edu if you have questions about the code/data.
