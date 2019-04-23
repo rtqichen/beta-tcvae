@@ -24,7 +24,7 @@ class Shapes(object):
 
 class Dataset(object):
     def __init__(self, loc):
-        self.dataset = torch.load(loc).float().div(255)
+        self.dataset = torch.load(loc).float().div(255).view(-1, 1, 64, 64)
 
     def __len__(self):
         return self.dataset.size(0)
