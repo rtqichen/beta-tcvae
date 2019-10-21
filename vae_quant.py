@@ -196,9 +196,9 @@ class VAE(nn.Module):
         M = batch_size - 1
         strat_weight = (N - M) / (N * M)
         W = torch.Tensor(batch_size, batch_size).fill_(1 / M)
-        W.view(-1)[::M+1] = 1 / N
-        W.view(-1)[1::M+1] = strat_weight
-        W[M-1, 0] = strat_weight
+        W.view(-1)[::batch_size+1] = 1 / N
+        W.view(-1)[1::batch_size+1] = strat_weight
+        W[batch_size-1, 0] = strat_weight
         return W.log()
 
     def elbo(self, x, dataset_size):
