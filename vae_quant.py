@@ -424,7 +424,7 @@ def main():
             anneal_kl(args, vae, iteration)
             optimizer.zero_grad()
             # transfer to GPU
-            x = x.cuda(async=True)
+            x = x.cuda(non_blocking=True)
             # wrap the mini-batch in a PyTorch Variable
             x = Variable(x)
             # do ELBO gradient and accumulate loss
